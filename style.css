@@ -22,7 +22,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
 }
 .active:hover {
   color: #f2673a;
@@ -119,7 +118,7 @@ header {
   padding: 5px, auto;
 }
 img:hover {
-  widht: 100%;
+  width: 100%;
   margin: auto;
 }
 .content {
@@ -241,7 +240,7 @@ footer {
   text-align: center;
   background-color: white;
   color: #777777;
-  font-size: 14px;
+  font-size: 12px;
   margin: 30px, 0;
   line-height: 30px;
 }
@@ -256,7 +255,7 @@ address {
   width:100%;
   background-color: white;
   color:#777777;
-  font-size: 14px;
+  font-size: 12px;
 }
 .copyright p{
   margin-top: 5px;
