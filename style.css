@@ -9,11 +9,12 @@ body {
   color: #777777;
 }
 header {
-  /* position: fixed; */
-  /* box-sizing: border-box;
-  box-shadow: 0px, 6px, 4px, 4px grey; */
+  position: fixed
   height: 100px;
   width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 25px 18%;
   background-color: transparent;
   border: 1px solid rgba(216, 214, 214, 0.884);
@@ -117,8 +118,8 @@ img:hover {
   margin: auto;
 }
 .content {
-  width: 100%;
-  height: 100%;
+  width: 285px;
+  height: 285px;
   position: absolute;
   top: 0%;
   left: 0%;
@@ -135,7 +136,7 @@ img:hover {
   opacity: 1;
 }
 .content li {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: white;
   margin-bottom: 10px;
