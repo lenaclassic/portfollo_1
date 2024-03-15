@@ -64,10 +64,13 @@ header {
   flex-wrap: wrap;
   margin: 20px 0px;
 }
-.letter {
+.video{
   position: relative;
+  top:0;
+  z-index: 100;
+}
+.letter {
   padding: 20px 0;
-  width: 100%;
 }
 .theme {
   height: 50px;
@@ -87,6 +90,7 @@ header {
   color: #333333;
   text-align: center;
   margin-left: 450px;
+  padding-left: 90px;
   font-size: 38px;
   letter-spacing: 10px;
 }
@@ -101,7 +105,7 @@ header {
 }
 .slide_track {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 420px;
 }
@@ -178,7 +182,7 @@ img:hover {
 .caution {
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   height: 500px;
   width: 100%;
   background-color: #eeeeee;
@@ -197,8 +201,8 @@ img:hover {
   background-color: #333333;
   border-radius: 20px;
   color: white;
-  font-size: 24px;
-  /* font-weight: 600; */
+  font-size: 18px;
+  font-weight: bold;
   text-align: center;
   margin: 30px 50px 10px;
   padding: 10px 15px;
