@@ -17,7 +17,8 @@ header {
   right: 0;
   padding: 25px 18%;
   background-color: transparent;
-  border: 1px solid rgba(216, 214, 214, 0.884);
+  border-top: 0.5px solid #a3a3a3;
+  border-bottom: 0.5px solid #a3a3a3;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -216,15 +217,16 @@ img:hover {
   padding: 0, 10px;
   margin-left: 40px;
 }
-#f_top {
-  border: 0.5px solid #a3a3a3;
+#else {
+  border-top: 0.5px solid #a3a3a3;
+  border-bottom: 0.5px solid #a3a3a3;
   position: relative;
   display: flex;
   justify-content: center;
   height: 60px;
   width: 100%;
 }
-.f_top_o {
+.else_o {
   margin-top: 20px;
   text-decoration: none;
   color: #777777;
@@ -233,7 +235,7 @@ img:hover {
   margin-top: 20px;
   color: #777777;
 }
-#f_b {
+footer {
   height: 100px;
   width: 100%;
   text-align: center;
@@ -243,6 +245,19 @@ img:hover {
   margin: 30px, 0;
   line-height: 30px;
 }
-#b.info {
+address {
+  font-style: normal;
   margin-top: 50px 0;
+  border:
+}
+.copyright{
+  border-top: 0.5px solid #a3a3a3;
+  height: 40px;
+  width:100%;
+  background-color: white;
+  color:#777777;
+  font-size: 14px;
+}
+.copyright p{
+  margin-top: 5px;
 }
